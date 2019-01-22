@@ -1,0 +1,16 @@
+PODS:
+  - DLPopupContainer (1.0.0)
+
+DEPENDENCIES:
+  - DLPopupContainer (from `../`)
+
+EXTERNAL SOURCES:
+  DLPopupContainer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DLPopupContainer: 178f5d0065cb3a4441811ab67d5ebe3e30186f41
+
+PODFILE CHECKSUM: d0c68f925fa118f4d83f4f76fe9bf099fd5ef45e
+
+COCOAPODS: 1.5.3
