@@ -68,7 +68,10 @@ static NSString *const kParametersDurationName = @"parameters.duration";
         [self addSubview:self.backgroundView];
         [self addSubview:self.containerView];
         
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didChangeStatusbarOrientation:) name:UIApplicationDidChangeStatusBarFrameNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(didChangeStatusbarOrientation:)
+                                                     name:UIApplicationDidChangeStatusBarFrameNotification
+                                                   object:nil];
     }
     return self;
 }
@@ -274,8 +277,6 @@ static NSString *const kParametersDurationName = @"parameters.duration";
             if (strongSelf.contentView.superview != strongSelf.containerView) {
                 [strongSelf.containerView addSubview:strongSelf.contentView];
             }
-            
-            strongSelf.contentView.translatesAutoresizingMaskIntoConstraints = NO;
             
             [strongSelf.contentView layoutIfNeeded];
             
