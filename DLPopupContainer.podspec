@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "DLPopupContainer"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "View弹出工具。"
   
   s.description  = <<-DESC
@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/DaLangLove/DLPopupContainer"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "Dalang" => "magicianDL@163.com" }
+  s.author       = { "Dalang" => "magicianDL@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/DaLangLove/DLPopupContainer.git", :tag => s.version }
-  s.source_files  = "DLPopupContainer", "DLPopupContainer/*"
-  s.framework  = "UIKit"
+  s.source_files = "DLPopupContainer", "DLPopupContainer/*"
+  s.framework    = "UIKit"
   s.requires_arc = true
 
 
